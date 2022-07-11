@@ -1,0 +1,62 @@
+﻿machine learning 
+Let -1 
+
+
+
+
+need to maths learning
+
+
+1. vector 
+2. example of vector
+3. a.b and aXb
+4. Real-life example (why maths is important)
+
+
+how polynomial as  Vector(abstract)
+
+
+what is vector space
+what is linear mapping and what is used of it in computations
+what is matrix
+        multiplication
+        addition
+        subtractions
+        division possible hai
+
+
+
+
+other operations
+what is transposing
+inverse
+
+
+
+
+Real-life examples
+
+
+*how 3d images are projected in 2d screen
+* Importance of matrices in Image processing algorithms
+* of a group of equations can be represented in matrix form
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+You made understand code and flow in my work, how notebooks and pythons files work together.
+Parallel we have done python basics again.
+
+
+And now work is also stable, her manager said great progress.
+Waiting on the feedback because we have enough work which is already done
