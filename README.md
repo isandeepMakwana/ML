@@ -18,3 +18,14 @@
   - [lecture 9 Statistics part -1.ipynb](lecture%209%20Statistics%20part%20-1.ipynb)
   - [Lecture 10 (statistics part 2).ipynb](Lecture%2010%20(statistics%20part%202).ipynb)
   - [Lecture 11 and 12.ipynb](Lecture%2011%20and%2012.ipynb)
+
+# Theory
+### [lecture-13 (ml theroy).ipynb](lecture-13%20(ml%20theroy).ipynb)
+<br>
+
+# Algorithems
+
+[Lecture-14-KNN(k nearest-neighnour).ipynb](Lecture-14-KNN(k%20nearest-neighnour).ipynb)
+
+  - [Assignments/Lecture-14-Assignment_solution-KNN(k-nearest-neighnour).ipynb](Assignments/Lecture-14-Assignment_solution-KNN(k-nearest-neighnour).ipynb)
+  - [Algo-ML/KNN_alog-lec14.py](Algo-ML/KNN_alog-lec14.py)
