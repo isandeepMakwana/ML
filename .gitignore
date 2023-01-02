@@ -1,3 +1,5 @@
 .DS_Store
 .ipynb_checkpoints/
 *.png
+.vscode/
+ml_pdfs/video/
