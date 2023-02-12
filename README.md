@@ -1,31 +1,30 @@
-# ML | [topic for inteview.txt](importend_topics.txt)
+# ML | [Topics-For-Inteviews.txt](01_importend_topics.txt)
 
 
 ## | numpy | scipy | statistics | matplotlib|
 - **Vector**
-  -  [Lecture 2 (Vector Operations).ipynb](Lecture%202%20(Vector%20Operations).ipynb)
+  -  [02_Vector_Operations.ipynb](02_Vector_Operations.ipynb)
 - **Matrix**
-  - [Lecture 3 (Numpy operations part 1).ipynb](Lecture%203%20(Numpy%20operations%20part%201).ipynb)
-  - [Lecture 4 (Numpy operations part 2).ipynb](Lecture%204%20(Numpy%20operations%20part%202).ipynb)
-  - [Lecture 5(matrix operations part 3).ipynb](Lecture%205(matrix%20operations%20part%203).ipynb)
-  - [Lecture 6 (matrix operations part 5).ipynb](Lecture%206%20(matrix%20operations%20part%205).ipynb)
-
+  - [03_Numpy_operations_part_1.ipynb](03_Numpy_operations_part_1.ipynb)
+  - [04_Numpy_operations_part_2).ipynb](04_Numpy_operations_part_2.ipynb)
+  - [05_matrix_operations_part_3.ipynb](05_Matrix_opreations_part_3.ipynb)
+  - [06_matrix_operations_part_5.ipynb](06_matrix_operations_part_5.ipynb)
 - **matplotlib**
-  - [Lecture 7 (matplotlib part 1).ipynb](Lecture%207%20(matplotlib%20part%201).ipynb)
-  - [Lecture 8 (Matplotlib part 2).ipynb](Lecture%208%20(Matplotlib%20part%202).ipynb)
-
+  - [07_matplotlib_part_1.ipynb](07_Matplotlib_part_1.ipynb)
+  - [08_Matplotlib_part_2.ipynb](08_Matplotlib_part_2.ipynb)
 - **Statistics**
-  - [lecture 9 Statistics part -1.ipynb](lecture%209%20Statistics%20part%20-1.ipynb)
-  - [Lecture 10 (statistics part 2).ipynb](Lecture%2010%20(statistics%20part%202).ipynb)
-  - [Lecture 11 and 12.ipynb](Lecture%2011%20and%2012.ipynb)
+  - [09_Statistics_part_1.ipynb](09_Statistics_part_1.ipynb)
+  - [10_statistics_part_2.ipynb](10_Statistics_part_2.ipynb)
+  - [11_and_12_distributions_with_assingment.ipynb](11_and_12_distributions_with_assingment.ipynb)
 
 # Theory
-### [lecture-13 (ml theroy).ipynb](lecture-13%20(ml%20theroy).ipynb)
+### [13_(ml theroy).ipynb](13_ml_theroy.ipynb)
 <br>
 
 # Algorithems
 
-[Lecture-14-KNN(k nearest-neighnour).ipynb](Lecture-14-KNN(k%20nearest-neighnour).ipynb)
+[14-&-15-KNN(k-nearest-neighnour).ipynb](14_&_15-KNN(k-nearest-neighnour).ipynb)
 
-  - [Assignments/Lecture-14-Assignment_solution-KNN(k-nearest-neighnour).ipynb](Assignments/Lecture-14-Assignment_solution-KNN(k-nearest-neighnour).ipynb)
-  - [Algo-ML/KNN_alog-lec14.py](Algo-ML/KNN_alog-lec14.py)
+  - [X] [Algo-ML/KNN_alog.py](Algo-ML/KNN_alog.py)
+  - [X] [Assignments/14-Assignment_solution-KNN(k-nearest-neighnour).ipynb](Assignments/14_Assignment_solution-KNN(k-nearest-neighnour).ipynb)
+  - [X] [Assignments/15_advanced_solution](Assignments/15_assignment.ipynb)
