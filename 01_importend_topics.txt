@@ -1,0 +1,34 @@
+1. linear algebra
+2. vector
+3. matrixes
+4. fourier transform
+5. scaler
+6. polynomials
+7. sparse matrix
+8. rank and trance
+9. eigen values , eigen vector
+10. geometric_mean
+11. harmonic_mean
+12. median
+13.weighted graph
+14. weighted mean
+15. mode
+16. cumulative sum
+17. median grouped
+# most importent
+18. probability density
+19. Random Variables , continous Random Variables
+20. Projection
+21. **** minimum mean squard error
+22. weighted distance
+23. Inner product
+24. conditional expactation
+25. normal distribution of normal numbers
+26. gocian
+27.uniform distribution
+28. discreate random Variables
+29. probability density function (PDF)
+30. Mean Absolute error
+31. Mean squared error
+32. Root mean squard error
+
