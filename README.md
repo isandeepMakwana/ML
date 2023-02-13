@@ -19,7 +19,6 @@
 
 # Theory
 ### [13_(ml theroy).ipynb](13_ml_theroy.ipynb)
-<br>
 
 # Algorithems
 
@@ -30,4 +29,3 @@
   - [X] [Algo-ML/KNN_alog.py](Algo-ML/KNN_alog.py)
   - [X] [Assignments/14-Assignment_solution-KNN(k-nearest-neighnour).ipynb](Assignments/14_Assignment_solution-KNN(k-nearest-neighnour).ipynb)
   - [X] [Assignments/15_advanced_solution](Assignments/15_assignment.ipynb)
-
