@@ -39,9 +39,9 @@
 
 * ### [17_creating_KNN_genric_function.ipynb](17_creating_KNN_genric_function.ipynb)
 * ### [18_and_19_CNN_Class_part-2.ipynb](18_and_19_CNN_Class_part-2.ipynb)
-* ### [26_KNN_on_Large_Dataset_&amp;_Creating_Viewer.ipynb](26_KNN_on_Large_Dataset_&_Creating_Viewer.ipynb)
+* ### [25_KNN_on_Large_Dataset_&amp;_Creating_Viewer.ipynb](25_KNN_on_Large_Dataset_&_Creating_Viewer.ipynb)
 
-  * [X] [26_KNN_large_dataset.py](26_KNN_large_dataset.py)
+  * [X] [25_KNN_large_dataset.py](25_KNN_large_dataset.py)
 
   * Data
     * [ ] [classification-data-set/datset-1 and dataset-2](classification-data-set/)
@@ -51,8 +51,8 @@
 * [20_Decision_Tree.ipynb](20_Decision_Tree.ipynb)
 * [21_decision_Tree_part_2.ipynb](21_decision_Tree_part_2.ipynb)
 * [22_decisonTree_part_3.ipynb](22_decisonTree_part_3.ipynb)
-* [23_decisonTree_part_4.ipynb](23_decisonTree_part_4.ipynb)
-* [24_decisonTree_part_5.ipynb](24_decision_tree_part_5.ipynb)
+* [23_decisonTree_part_4_&_5.ipynb](23_decisonTree_part_4_&_5.ipynb)
+
 
 
 
