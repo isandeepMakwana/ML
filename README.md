@@ -62,3 +62,10 @@
 * [16_feture_scaling.ipynb](16_feture_scaling.ipynb)
 * [16_feture_scaling_processes.xlsx](16_feture_scaling_processes.xlsx)
     * [X] [MeanAbsouluteError , MeanSquaredError , RMSE](Assignments/Assignment-2-ml/)
+
+
+
+
+
+<!-- import sys
+!{sys.executable} -m pip install scipy -->
