@@ -25,10 +25,9 @@
 24. conditional expactation
 25. normal distribution of normal numbers
 26. gocian
-27.uniform distribution
+27. uniform distribution
 28. discreate random Variables
 29. probability density function (PDF)
 30. Mean Absolute error
 31. Mean squared error
 32. Root mean squard error
-
