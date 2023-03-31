@@ -34,7 +34,7 @@
 33. classification report
 34. precision / recall / F1 score / support (In context to statistics) ? Formulas
 35. what is gradient descent
-36. Mutidimensional hyper plane
+36. Mutidimensional hyperplane
 37. What happens when there are lots of features in context to
 * * **processing time / Power required**
 38. Image processing / Text processing
