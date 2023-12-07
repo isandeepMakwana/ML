@@ -1,4 +1,3 @@
-from turtle import window_height
 import numpy
 
 data = numpy.matrix(((10,20,100,40,5),(10,20,100,40,5),(10,20,100,40,5)))
