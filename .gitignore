@@ -1,7 +1,11 @@
-.DS_Store
+# folders
 .ipynb_checkpoints/
-*.png
-*.R
+.idea/
 .vscode/
 ml_pdfs/video/
-.idea/
+
+# files
+.DS_Store
+*.png
+*.R
+*.tmp
