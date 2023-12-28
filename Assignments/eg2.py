@@ -7,7 +7,9 @@ import statistics
 
 def ClassifyByKNN(*args):
     if len(args) - 2 != len(args[len(args) - 1]):
-        raise ValueError(f"{args}\n error: due to your datasets and identified classes not equal !!!!!!")
+        raise ValueError(
+            f"{args}\n error: due to your datasets and identified classes not equal !!!!!!"
+        )
     classesAndColors = args[len(args) - 1]
     query = args[len(args) - 2]
     distanceList = []
@@ -130,7 +132,13 @@ ok_students = [
     (83, 27, 9, 12),
 ]
 
-c = ClassifyByKNN(excellent_students,average_students,ok_students,(56, 82, 51, 40, "b"),(("excellence", "r"), ("average", "g"), ("ok", "k")))
+c = ClassifyByKNN(
+    excellent_students,
+    average_students,
+    ok_students,
+    (56, 82, 51, 40, "b"),
+    (("excellence", "r"), ("average", "g"), ("ok", "k")),
+)
 print(f"(56,82,51,40) belongs to {c}")
 
 
@@ -169,10 +177,14 @@ lst = scaled_table.tolist()
 happy = []
 unhappy = []
 for i in range(len(lst) - 1):
-    if i in [2, 4]:unhappy.append(lst[i])
-    else:happy.append(lst[i])
+    if i in [2, 4]:
+        unhappy.append(lst[i])
+    else:
+        happy.append(lst[i])
 
 query_fetures = lst[-1]
 print(query_fetures)
-c = ClassifyByKNN(happy, unhappy, tuple(query_fetures), (("happy", "r"), ("unhappy", "g")))
+c = ClassifyByKNN(
+    happy, unhappy, tuple(query_fetures), (("happy", "r"), ("unhappy", "g"))
+)
 print(f"(2,20,15,450000) belongs to {c}")

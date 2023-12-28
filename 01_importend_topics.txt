@@ -1,4 +1,4 @@
-1. linear algebra
+1. linear algebera
 2. vector
 3. matrixes
 4. fourier transform
@@ -10,7 +10,7 @@
 10. geometric_mean
 11. harmonic_mean
 12. median
-13.weighted graph
+13. weighted graph
 14. weighted mean
 15. mode
 16. cumulative sum
@@ -38,3 +38,5 @@
 37. What happens when there are lots of features in context to
 * * **processing time / Power required**
 38. Image processing / Text processing
+39. Information Gain
+40. quantifing data / quantify data

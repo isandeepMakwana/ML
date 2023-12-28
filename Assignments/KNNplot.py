@@ -3,6 +3,7 @@ import numpy
 import matplotlib.pyplot
 import statistics
 
+
 def __plot(lst):
     matplotlib.pyplot.plot(0, 0, color="b", marker="o", markersize=20, label="target")
     dct = {}
@@ -60,8 +61,21 @@ def ClassifyByKNN(*args, plot=False):
 
 
 # ex1:
-a = numpy.array([[10, 20], [20, 25], [15, 20], [30, 45], [10, 10], [50, 25], [30, 55], [40, 60]])
-b = numpy.array([[100, 120],[120, 125],[115, 120],[130, 145],[100, 100],[150, 125],[130, 155],[140, 160]])
+a = numpy.array(
+    [[10, 20], [20, 25], [15, 20], [30, 45], [10, 10], [50, 25], [30, 55], [40, 60]]
+)
+b = numpy.array(
+    [
+        [100, 120],
+        [120, 125],
+        [115, 120],
+        [130, 145],
+        [100, 100],
+        [150, 125],
+        [130, 155],
+        [140, 160],
+    ]
+)
 c = ClassifyByKNN(a, b, (80, 100, "b"), (("A", "r"), ("B", "g")), plot=True)
 print(f"(80,100) belongs to {c}")
 print("==" * 50)

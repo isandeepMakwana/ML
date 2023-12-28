@@ -11,20 +11,18 @@ import sys
 def ClassifyByKNN(*args):
     # print(*args)
     classesAndColors = args[len(args) - 1]
-    print('classes and colors ', classesAndColors)
+    print("classes and colors ", classesAndColors)
     queryX = args[len(args) - 2][0]
     queryY = args[len(args) - 2][1]
     query = args[len(args) - 2]
     for i in range(len(args) - 2):
         x, y = numpy.array(args[i]).T
         matplotlib.pyplot.scatter(x, y, color=classesAndColors[i][1])
-    matplotlib.pyplot.plot(queryX,
-                           queryY,
-                           color=args[len(args) - 2][2],
-                           marker="o",
-                           markersize=20)
+    matplotlib.pyplot.plot(
+        queryX, queryY, color=args[len(args) - 2][2], marker="o", markersize=20
+    )
     matplotlib.pyplot.grid(True)
-    matplotlib.pyplot.savefig('imageFromKNN.png', transparent=True)
+    matplotlib.pyplot.savefig("imageFromKNN.png", transparent=True)
     # matplotlib.pyplot.show()
     distanceList = []
     for i in range(len(args) - 2):
@@ -33,12 +31,12 @@ def ClassifyByKNN(*args):
             qi = 0
             ep = len(query) - 2
             while qi <= ep:
-                qd = (p[qi] - query[qi])**2
+                qd = (p[qi] - query[qi]) ** 2
                 sumOfSquares += qd
                 qi += 1
             distance = math.sqrt(sumOfSquares)
-            #xd = abs(p[0]-queryX)
-            #yd = abs(p[1]-queryY)
+            # xd = abs(p[0]-queryX)
+            # yd = abs(p[1]-queryY)
             # distance = math.sqrt(xd**2+yd**2)
             distanceList.append((classesAndColors[i][0], distance))
     # print('Calculated Distances : ', distanceList)
@@ -58,32 +56,37 @@ def ClassifyByKNN(*args):
 
 
 try:
-    start = time.time()  #======================
+    start = time.time()  # ======================
     window = tkinter.Tk()
     canvas = tkinter.Canvas(master=window, width=650, height=500)
     canvas.grid(row=0, column=0)
     file_name = sys.argv[1]
     # file_name = 'data/input_file_KNN.txt'
-    f = open(file_name, 'r')
+    f = open(file_name, "r")
     file_list = f.readlines()
     f.close()
     datasets = []
-    for i in file_list:
+    for i in sorted(file_list):
         lst = []
-        with open(i.strip('\n'), 'r') as f:
+        with open(i.strip("\n"), "r") as f:
             lst.extend(
-                tuple(int(j) for j in data.strip('\n').lstrip().split())
-                for data in f)
+                tuple(int(j) for j in data.strip("\n").lstrip().split()) for data in f
+            )
         datasets.append(lst)
     print(len(datasets))
-    c = ClassifyByKNN(*datasets, (80, 100, "k"),
-                      (("A", "b"), ("B", "r"), ("C", "g"), ("D", "#8E44AD")))
-    print(f"(80,100) belongs to {c}")
+    queryPoints = (800, 1000)
+    c = ClassifyByKNN(
+        *datasets,
+        (queryPoints[0], queryPoints[1], "k"),
+        (("A", "b"), ("B", "r"), ("C", "g"), ("D", "#8E44AD")),
+    )
+    print(f"{queryPoints} belongs to {c}")
     img = tkinter.PhotoImage(file="imageFromKNN.png")
     canvas.create_image(50, 20, image=img, anchor="nw")
     end = time.time()
-    label = tkinter.ttk.Label(master=window,
-                              text=f"time = {str(round(end - start, 5))}")
+    label = tkinter.ttk.Label(
+        master=window, text=f"time = {str(round(end - start, 5))}"
+    )
     label.grid(row=1, column=0)
     window.geometry("750x600")
     window.mainloop()
